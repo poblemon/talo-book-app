@@ -1,5 +1,4 @@
 {
-  "homepage": "https://poblemon.github.io/talo-book-app",
   "dependencies": {
     "@uploadcare/react-uploader": "^1.8.1",
     "next": "^15.3.5",
@@ -14,9 +13,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "build": "next build",
+    "start": "next start"
   }
 }
